@@ -6,7 +6,6 @@
   "directories": {
     "test": "tests"
   },
-  "type": "module",
   "scripts": {
     "test": "jest",
     "start": "node server.js"
@@ -24,6 +23,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.27.2",
     "babel-jest": "^29.7.0",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
   }
 }
