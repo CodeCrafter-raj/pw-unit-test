@@ -1,0 +1,9 @@
+# Ignore the 'node_modules' directory (common in JavaScript projects)
+node_modules/
+
+# Ignore the 'build' directory and its contents
+build/
+
+# Ignore specific files
+.env
+my_secret_key.txt
