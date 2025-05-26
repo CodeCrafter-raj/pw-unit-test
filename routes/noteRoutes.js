@@ -1,8 +1,8 @@
-import express from "express";
-import { createNote, authMiddleware } from "../controllers/noteController.js";
+const express = require('express');
+const { createNote, authMiddleware } = require('../controllers/noteController');
 
 const router = express.Router();
 
-router.post("/", authMiddleware, createNote);
+router.post('/', authMiddleware, createNote);
 
-export default router;
+module.exports = router;
